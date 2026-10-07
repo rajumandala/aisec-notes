@@ -8,25 +8,25 @@ All examples use an imaginary IT helpdesk with made-up tickets and people, so th
 
 Read them in number order. Each note builds on the earlier ones. For example, the attacks in RAG (7) and Memory (8) are the same indirect injection first seen in Tool Calling (3), and the fix in Multi-Agent Systems (9) is the rule from The Model Proposes, Code Decides (2).
 
-Progress is tracked in [[0. Syllabus]].
+Progress is tracked in [0. Syllabus](0.%20Syllabus.md).
 
 ## The notes
 
 | # | Note | Key lesson |
 |---|---|---|
-| 1 | [[1. Calling a Model]] | Output in the right structure is not the same as correct output |
-| 2 | [[2. The Model Proposes, Code Decides]] | Let the model extract facts; let code make the decision |
-| 3 | [[3. Tool Calling]] | Authorisation uses the signed-in user, never the model's arguments |
-| 4 | [[4. The Agent Loop]] and [[4. The Agent Loop - Exercises]] | The model decides what to do; code decides how far it may go |
-| 5 | [[5. Evaluations]] | Measure pass rates; security cases must pass every time |
-| 6 | [[6. MCP]] | A tool description written by someone else is an instruction to your model |
-| 7 | [[7. RAG]] | Check access before documents reach the model; anyone who writes a document can instruct it |
-| 8 | [[8. Memory]] | A saved memory turns untrusted text into trusted instructions for every later session |
-| 9 | [[9. Multi-Agent Systems and Code Execution]] | One agent's output is untrusted input to the next; model-written code runs only in a sandbox |
-| 10 | [[10. Prompt Injection and Red Teaming]] | Design as if the injection will succeed, then limit what a fooled model can do |
-| 11 | [[11. Frameworks]] | A framework's default settings make security decisions for you |
-| 12 | [[12. Architecture Review of AI Systems]] | For every text reaching the model, ask who can write it |
-| 13 | [[13. Governance]] | Policy, inventory, risk tiers and evidence for every AI system |
+| 1 | [1. Calling a Model](1.%20Calling%20a%20Model.md) | Output in the right structure is not the same as correct output |
+| 2 | [2. The Model Proposes, Code Decides](2.%20The%20Model%20Proposes,%20Code%20Decides.md) | Let the model extract facts; let code make the decision |
+| 3 | [3. Tool Calling](3.%20Tool%20Calling.md) | Authorisation uses the signed-in user, never the model's arguments |
+| 4 | [4. The Agent Loop](4.%20The%20Agent%20Loop.md) and [4. The Agent Loop - Exercises](4.%20The%20Agent%20Loop%20-%20Exercises.md) | The model decides what to do; code decides how far it may go |
+| 5 | [5. Evaluations](5.%20Evaluations.md) | Measure pass rates; security cases must pass every time |
+| 6 | [6. MCP](6.%20MCP.md) | A tool description written by someone else is an instruction to your model |
+| 7 | [7. RAG](7.%20RAG.md) | Check access before documents reach the model; anyone who writes a document can instruct it |
+| 8 | [8. Memory](8.%20Memory.md) | A saved memory turns untrusted text into trusted instructions for every later session |
+| 9 | [9. Multi-Agent Systems and Code Execution](9.%20Multi-Agent%20Systems%20and%20Code%20Execution.md) | One agent's output is untrusted input to the next; model-written code runs only in a sandbox |
+| 10 | [10. Prompt Injection and Red Teaming](10.%20Prompt%20Injection%20and%20Red%20Teaming.md) | Design as if the injection will succeed, then limit what a fooled model can do |
+| 11 | [11. Frameworks](11.%20Frameworks.md) | A framework's default settings make security decisions for you |
+| 12 | [12. Architecture Review of AI Systems](12.%20Architecture%20Review%20of%20AI%20Systems.md) | For every text reaching the model, ask who can write it |
+| 13 | [13. Governance](13.%20Governance.md) | Policy, inventory, risk tiers and evidence for every AI system |
 
 ## People in the examples
 
