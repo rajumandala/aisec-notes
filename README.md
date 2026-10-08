@@ -25,6 +25,7 @@ Progress is tracked in [0. Syllabus](0.%20Syllabus.md).
 | 9 | [9. Multi-Agent Systems and Code Execution](9.%20Multi-Agent%20Systems%20and%20Code%20Execution.md) | One agent's output is untrusted input to the next; model-written code runs only in a sandbox |
 | 10 | [10. Prompt Injection and Red Teaming](10.%20Prompt%20Injection%20and%20Red%20Teaming.md) | Design as if the injection will succeed, then limit what a fooled model can do |
 | 11 | [11. Frameworks](11.%20Frameworks.md) | A framework's default settings make security decisions for you |
+| 11a | [11a. LangChain and LangGraph](11a.%20LangChain%20and%20LangGraph.md) | A thread ID is an object reference: check who owns it before loading the saved conversation |
 | 12 | [12. Architecture Review of AI Systems](12.%20Architecture%20Review%20of%20AI%20Systems.md) | For every text reaching the model, ask who can write it |
 | 13 | [13. Governance](13.%20Governance.md) | Policy, inventory, risk tiers and evidence for every AI system |
 
@@ -53,6 +54,7 @@ The notes cover two OWASP lists: the **Top 10 for LLM Applications 2026** and th
 | 9 | Multi-agent systems and code execution | Excessive agency, Improper output handling | ASI03, ASI05 Unexpected code execution, ASI07 Insecure inter-agent communication, ASI08, ASI10 Rogue agents |
 | 10 | Prompt injection and red teaming | Prompt injection | ASI01 Agent goal hijack, ASI09 Human-agent trust exploitation |
 | 11 | Frameworks | Supply chain, Sensitive information disclosure, Unbounded consumption | ASI04 Agentic supply chain |
+| 11a | LangChain and LangGraph | Supply chain, Sensitive information disclosure, Unbounded consumption | ASI03 Identity and privilege abuse, ASI04 Agentic supply chain, ASI06 Memory and context poisoning |
 | 12 | Architecture review | All | All |
 | 13 | Governance | All | All |
 
